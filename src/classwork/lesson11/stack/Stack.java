@@ -1,14 +1,15 @@
 package classwork.lesson11.stack;
 
 public class Stack {
-    int[] array = new int[10];
-    int index;
 
-    Stack() {
+    private int[]  array = new int[10];
+    private int index;
+
+    public  Stack() {
         index = -1;
     }
 
-    void push(int value) {
+    public void push(int value) {
         if (index == 9) {
             System.out.println("Stack is full");
         } else {
@@ -16,7 +17,7 @@ public class Stack {
         }
     }
 
-    int pop() {
+    public int pop() {
         if (index < 0) {
             System.err.println("Stack is empty");
             return 0;

@@ -10,10 +10,12 @@ public class StackTest {
         myStack.push(9);
 
 
+      //  myStack.array = new int[20];
+
         System.out.println(myStack.pop());
         System.out.println(myStack.pop());
 
-  myStack.push(8);
+        myStack.push(8);
         System.out.println(myStack.pop());
         System.out.println(myStack.pop());
     }

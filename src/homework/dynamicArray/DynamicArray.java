@@ -54,12 +54,22 @@ public class DynamicArray {
         for (int i = 0; i < array.length; i++) {
             i = index;
             array[i] = value;
-             }
+        }
         System.out.println(array);
 
 
     }
 //Գրել մեթոդ add(int index, int value) որը տրված վելյուն կդնի տրված ինդեքսի տեղը, իսկ էղած թիվը ու կողքի բոլոր թվերը կտանի աջ, ոչ մի թիվ չի կորի
+
+    public void add(int index, int value) {
+        for (int i = 0; i < array.length; i++) {
+            if (index == i) {
+                array[i] = value;
+            }
+        }
+        increaseArray();
+
+    }
 
 //Գրել մեթոդ delete(int index) որ տանք ինդեքսը, այդ ինդեքսի տակ գտնվող թիվը հեռացնի մասիվից. (նոր մասիվ պետք չէ սարքել)
 

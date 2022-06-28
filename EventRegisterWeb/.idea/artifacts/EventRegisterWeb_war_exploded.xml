@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="EventRegisterWeb:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/EventRegisterWeb_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="EventRegisterWeb/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="EventRegisterWeb" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: com.google.protobuf:protobuf-java:3.19.4" />
+          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:8.0.30" />
+          <element id="library" level="project" name="Maven: org.projectlombok:lombok:1.18.24" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
